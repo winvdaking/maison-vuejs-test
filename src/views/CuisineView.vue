@@ -1,5 +1,5 @@
 <script setup>
-import { useLapinStore } from '../stores/lapin';
+import { useLapinStore } from '@/stores/lapin';
 
 const lapin = useLapinStore();
 </script>

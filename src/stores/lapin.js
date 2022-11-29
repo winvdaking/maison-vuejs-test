@@ -11,4 +11,6 @@ export const useLapinStore = defineStore('lapin', () => {
         lapinCacheDans.value = nomdelapiece;
     }
     return { lapinTrouve, lapinCacheDans, setLapinTrouve };
+}, {
+    persist: true
 });

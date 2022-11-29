@@ -8,4 +8,6 @@ export const useMaisonStore = defineStore('maison', () => {
     }
 
     return { lumiereSalon, toggleLumiere };
+}, {
+    persist: true
 });
